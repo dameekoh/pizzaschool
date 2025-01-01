@@ -1,5 +1,5 @@
 import Person from './components/Person';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 
 const App = () => {
   const [counter, setCounter] = useState(0);
